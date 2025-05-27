@@ -1,0 +1,81 @@
+body {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to bottom, #ffe3f3, #fff);
+  color: #b30059;
+  text-align: center;
+}
+
+.hero {
+  padding: 2rem 1rem;
+}
+
+.profile-pic {
+  width: 140px;
+  height: 140px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 4px solid #ff66a3;
+  margin-bottom: 1rem;
+}
+
+h1 {
+  font-size: 2rem;
+  margin: 0.5rem 0;
+}
+
+.typing {
+  font-size: 1.2rem;
+  color: #ff3399;
+  min-height: 1.5rem;
+}
+
+.btn-group {
+  margin-top: 1.5rem;
+}
+
+.btn {
+  text-decoration: none;
+  padding: 0.6rem 1.2rem;
+  margin: 0.5rem;
+  border-radius: 30px;
+  font-weight: bold;
+  display: inline-block;
+  transition: 0.3s;
+}
+
+.whatsapp {
+  background-color: #25d366;
+  color: white;
+}
+
+.instagram {
+  background: linear-gradient(45deg, #fd1d1d, #833ab4);
+  color: white;
+}
+
+.facebook {
+  background: #3b5998;
+  color: white;
+}
+
+.btn:hover {
+  transform: scale(1.05);
+}
+
+.message {
+  background: white;
+  margin: 2rem auto;
+  padding: 2rem;
+  border-radius: 20px;
+  max-width: 600px;
+  box-shadow: 0 0 10px #ffc0cb;
+}
+
+footer {
+  margin-top: 2rem;
+  padding: 1rem;
+  background-color: #ffe6f0;
+  color: #ff3399;
+}
